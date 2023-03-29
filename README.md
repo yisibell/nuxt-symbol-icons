@@ -51,6 +51,7 @@ module.exports = {
 | :---: | :---: | :---: | :---: |
 | `enable` | `boolean` | `true` | Whether to enable **nuxt-symbol-icons** |
 | `svgSymbolIdPrefix` | `string` | `icon-` | Define the SVG symbol id prefix. |
+| `globalComponentName` | `string` | `SvgIcon` | Define the global component name of `vue-symbol-icon`. |
 
 # CHANGE LOG
 
