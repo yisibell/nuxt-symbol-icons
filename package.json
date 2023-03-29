@@ -11,7 +11,7 @@
     "types"
   ],
   "scripts": {
-    "release": "changelogen --release && git push --follow-tags"
+    "release": "changelogen --release && npm run publish --access=public && git push --follow-tags"
   },
   "dependencies": {
     "svg-sprite-loader": "^6.0.11",
