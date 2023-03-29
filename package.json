@@ -29,7 +29,7 @@
     "nuxt": "^2.14.0"
   },
   "devDependencies": {
-    "changelogen": "^0.5.2",
+    "changelogen": "^0.4.1",
     "cz-conventional-changelog": "^3.3.0"
   }
 }
