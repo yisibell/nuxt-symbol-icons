@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.4.2
+
+[compare changes](https://undefined/undefined/compare/v1.4.1...v1.4.2)
+
+
+### 🩹 Fixes
+
+  - Plugin template can not found error (50d24e4)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.1
 
 [compare changes](https://undefined/undefined/compare/v1.4.0...v1.4.1)
