@@ -1,6 +1,6 @@
 {
   "name": "nuxt-symbol-icons",
-  "version": "1.4.4",
+  "version": "1.4.5",
   "main": "./lib/module.js",
   "types": "./types/index.d.ts",
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
