@@ -50,8 +50,8 @@ module.exports = {
 | Key | Type | Default value | Description |
 | :---: | :---: | :---: | :---: |
 | `enable` | `boolean` | `true` | Whether to enable **nuxt-symbol-icons** |
-| `svgSymbolIdPrefix` | `string` | `icon-` | Whether to enable **nuxt-symbol-icons** |
+| `svgSymbolIdPrefix` | `string` | `icon-` | Define the SVG symbol id prefix. |
 
 # CHANGE LOG
 
-see [change log](./CHANGELOG.md)
+see [CHANGE LOG](./CHANGELOG.md)
