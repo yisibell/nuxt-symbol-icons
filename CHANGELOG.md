@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.4.4
+
+
+### 🏡 Chore
+
+  - Use changelogen 0.4.1 (519e159)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.3
 
 [compare changes](https://undefined/undefined/compare/v1.4.2...v1.4.3)
