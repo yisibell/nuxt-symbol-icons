@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.5.0
+
+
+### 🚀 Enhancements
+
+  - Support define global component name (feddc72)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.6
 
 
