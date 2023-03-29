@@ -40,7 +40,7 @@ module.exports = {
 }
 ```
 
-2. Put your **SVG icon** into `~/assets/icon/svg/` folder.
+2. Put your **SVG icon** into `~/assets/icons/svg/` folder.
 
 3. then, you can use `<svg-icon name="icon-name" />` in projects. The `<svg-icon />` component powered by [vue-symbol-icon](https://github.com/yisibell/vue-symbol-icon)
 
