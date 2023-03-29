@@ -2,6 +2,7 @@
   "name": "nuxt-symbol-icons",
   "version": "1.0.0",
   "main": "index.js",
+  "types": "./types/index.d.ts",
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
   "author": "wenqing <wenqing@kerrylan.com>",
   "license": "MIT",
