@@ -1,6 +1,31 @@
 # Changelog
 
 
+## v1.4.0
+
+[compare changes](https://undefined/undefined/compare/v1.0.0...v1.4.0)
+
+
+### 🚀 Enhancements
+
+  - **types:** Add types (fde26e5)
+  - V1.3 (8dc081c)
+
+### 🩹 Fixes
+
+  - Fix release scripts (d34d906)
+
+### 🏡 Chore
+
+  - **scripts:** Update scripts (022de21)
+  - Changelog (122a08d)
+  - Changelog (0a3ba88)
+  - **docs:** Update readme (e7313d2)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.3.0
 
 [compare changes](https://undefined/undefined/compare/v1.0.0...v1.3.0)
