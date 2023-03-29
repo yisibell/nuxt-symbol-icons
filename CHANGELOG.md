@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.4.6
+
+
+### 🏡 Chore
+
+  - **pkg:** Update package.json (903e2b1)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.5
 
 
