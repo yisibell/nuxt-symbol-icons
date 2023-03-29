@@ -1,0 +1,26 @@
+{
+  "name": "nuxt-symbol-icons",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
+  "author": "wenqing <wenqing@kerrylan.com>",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "types"
+  ],
+  "scripts": {
+    "release": "changelogen --release && git push --follow-tags"
+  },
+  "dependencies": {
+    "svg-sprite-loader": "^6.0.11",
+    "vue-symbol-icon": "^2.0.1"
+  },
+  "peerDependencies": {
+    "nuxt": "^2.14.0"
+  },
+  "devDependencies": {
+    "changelogen": "^0.5.2",
+    "cz-conventional-changelog": "^3.3.0"
+  }
+}
