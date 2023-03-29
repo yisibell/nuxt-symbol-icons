@@ -1,7 +1,7 @@
 {
   "name": "nuxt-symbol-icons",
   "version": "1.2.0",
-  "main": "index.js",
+  "main": "./lib/module.js",
   "types": "./types/index.d.ts",
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
   "author": "wenqing <wenqing@kerrylan.com>",
@@ -9,6 +9,14 @@
   "files": [
     "lib",
     "types"
+  ],
+  "keywords": [
+    "nuxt2",
+    "nuxt-module",
+    "svg-sprite-loader",
+    "svg",
+    "svg-symbol-icon",
+    "icon"
   ],
   "scripts": {
     "release": "changelogen --release && npm publish --access=public && git push --follow-tags"
