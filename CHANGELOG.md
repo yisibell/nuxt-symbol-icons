@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.4.3
+
+[compare changes](https://undefined/undefined/compare/v1.4.2...v1.4.3)
+
+
+### 🩹 Fixes
+
+  - Make plugin to client mode (6b7eb1d)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.2
 
 [compare changes](https://undefined/undefined/compare/v1.4.1...v1.4.2)
