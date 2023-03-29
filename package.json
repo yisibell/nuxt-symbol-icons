@@ -1,10 +1,14 @@
 {
   "name": "nuxt-symbol-icons",
+  "description": "A nuxt(2) module for using svg sprite icon.",
   "version": "1.4.5",
   "main": "./lib/module.js",
   "types": "./types/index.d.ts",
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
-  "author": "wenqing <wenqing@kerrylan.com>",
+  "author": {
+    "name": "elenh",
+    "email": "yisiwings@163.com"
+  },
   "license": "MIT",
   "files": [
     "lib",
@@ -15,7 +19,7 @@
     "nuxt-module",
     "svg-sprite-loader",
     "svg",
-    "svg-symbol-icon",
+    "vue-symbol-icon",
     "icon"
   ],
   "scripts": {
