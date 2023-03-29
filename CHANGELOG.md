@@ -1,6 +1,19 @@
 # Changelog
 
 
+## v1.4.1
+
+[compare changes](https://undefined/undefined/compare/v1.4.0...v1.4.1)
+
+
+### 🩹 Fixes
+
+  - Path error (1f34963)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.4.0
 
 [compare changes](https://undefined/undefined/compare/v1.0.0...v1.4.0)
