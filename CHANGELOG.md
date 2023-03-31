@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.6.2
+
+
+### 🩹 Fixes
+
+  - Get moduleContainer error (f11f71a)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.6.1
 
 
