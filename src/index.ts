@@ -13,7 +13,11 @@ const runModule = (
 
   // Combine options
   const finalModuleOptions = Object.assign(
-    { enable: true, svgSymbolIdPrefix: 'icon-' },
+    {
+      enable: true,
+      svgSymbolIdPrefix: 'icon-',
+      globalComponentName: 'SvgIcon',
+    },
     nuxtOptions.nuxtSymbolIcons,
     moduleOptions
   )
