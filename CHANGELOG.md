@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.6.1
+
+
+### 🩹 Fixes
+
+  - RunModule this error (762ae95)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.6.0
 
 
