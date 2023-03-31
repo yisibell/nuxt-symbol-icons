@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.6.4
+
+
+### 🩹 Fixes
+
+  - GlobalComponentName default value (1d657c9)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.6.3
 
 
