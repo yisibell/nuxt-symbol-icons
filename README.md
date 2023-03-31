@@ -22,6 +22,9 @@ $ yarn add --dev nuxt-symbol-icons
 
 # npm 
 $ npm i nuxt-symbol-icons -D
+
+# pnpm
+$ pnpm add --dev nuxt-symbol-icons
 ```
 
 # Usage
