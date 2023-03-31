@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.6.0
+
+
+### 🚀 Enhancements
+
+  - Migrate to typescript (a64c10c)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.5.1
 
 
