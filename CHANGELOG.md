@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.5.1
+
+
+### 💅 Refactors
+
+  - Migrate to typescript (1adfe0a)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.5.0
 
 
