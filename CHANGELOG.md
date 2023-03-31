@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.6.3
+
+
+### 🩹 Fixes
+
+  - Get moduleContainer error (f078837)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.6.2
 
 
