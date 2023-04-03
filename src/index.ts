@@ -19,6 +19,8 @@ const runModule = (
       globalComponentName: 'SvgIcon',
       svgSpriteLoaderIncludeDir: 'assets/icons/svg',
       requireContextSvgDir: '~/assets/icons/svg',
+      extraSvgSpriteLoaderOptions: {},
+      extraPreLoaders: [],
     },
     nuxtOptions.nuxtSymbolIcons as NuxtSymbolIconsOptions,
     moduleOptions
@@ -54,10 +56,16 @@ const runModule = (
         config.module?.rules.push({
           test: /\.svg$/,
           include: [svgDir],
-          loader: 'svg-sprite-loader',
-          options: {
-            symbolId,
-          },
+          use: [
+            {
+              loader: 'svg-sprite-loader',
+              options: {
+                symbolId,
+                ...finalModuleOptions.extraSvgSpriteLoaderOptions,
+              },
+            },
+            ...finalModuleOptions.extraPreLoaders,
+          ],
         })
       }
     })
