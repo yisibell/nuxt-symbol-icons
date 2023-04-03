@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.8.0
+
+
+### 🚀 Enhancements
+
+  - Support configure extra svg-sprite-loader options and add other loaders (75af601)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.7.2
 
 
