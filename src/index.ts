@@ -44,7 +44,9 @@ const runModule = (
         })
 
         if (svgRule) {
-          svgRule.exclude = [svgDir]
+          svgRule.exclude = Array.isArray(svgRule.exclude)
+            ? [...svgRule.exclude, svgDir]
+            : [svgDir]
         }
 
         const symbolId = `${svgSymbolIdPrefix}[name]`
