@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.7.1
+
+
+### 🩹 Fixes
+
+  - RequireContextSvgDir template render (60f12d8)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.7.0
 
 
