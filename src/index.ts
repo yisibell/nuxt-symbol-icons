@@ -17,8 +17,10 @@ const runModule = (
       enable: true,
       svgSymbolIdPrefix: 'icon-',
       globalComponentName: 'SvgIcon',
+      svgSpriteLoaderIncludeDir: 'assets/icons/svg',
+      requireContextSvgDir: '~/assets/icons/svg',
     },
-    nuxtOptions.nuxtSymbolIcons,
+    nuxtOptions.nuxtSymbolIcons as NuxtSymbolIconsOptions,
     moduleOptions
   )
 
@@ -28,7 +30,11 @@ const runModule = (
     // extend webpack
     moduleContainer.extendBuild((config, { isClient }) => {
       if (isClient) {
-        const svgDir = path.resolve(process.cwd(), srcDir, 'assets/icons/svg')
+        const svgDir = path.resolve(
+          process.cwd(),
+          srcDir,
+          finalModuleOptions.svgSpriteLoaderIncludeDir
+        )
 
         /* extend svg-sprite-loader */
         const svgRule = config.module?.rules.find((rule) => {
