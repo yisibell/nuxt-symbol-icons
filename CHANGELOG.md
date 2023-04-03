@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.7.2
+
+
+### 🩹 Fixes
+
+  - Update svg-sprite-loader include dir merge strategy (54af60e)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.7.1
 
 
