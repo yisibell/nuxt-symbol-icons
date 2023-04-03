@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v1.7.0
+
+
+### 🚀 Enhancements
+
+  - Support svgSpriteLoaderIncludeDir and requireContextSvgDir (f087cd9)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.6.4
 
 
