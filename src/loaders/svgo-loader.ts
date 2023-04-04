@@ -1,25 +1,16 @@
-import { optimize, loadConfig } from 'svgo'
+import { optimize } from 'svgo'
 import loaderUtils from 'loader-utils'
 
 type LoaderContext = any
 
 async function runLoader(this: LoaderContext, source: string) {
-  const { context, resourcePath } = this
+  const { resourcePath } = this
 
-  const { configFile, ...options } = loaderUtils.getOptions(this)
-
-  let config
-
-  if (typeof configFile === 'string') {
-    config = await loadConfig(configFile, context)
-  } else if (configFile !== false) {
-    config = await loadConfig('', context)
-  }
+  const options = Object.assign({}, loaderUtils.getOptions(this))
 
   const result = optimize(source, {
-    path: resourcePath,
-    ...config,
     ...options,
+    path: resourcePath,
   })
 
   return result.data

@@ -4,12 +4,6 @@
   "version": "2.0.1",
   "main": "./lib/module.js",
   "types": "./lib/index.d.ts",
-  "exports": {
-    ".": {
-      "require": "./lib/module.js",
-      "types": "./lib/index.d.ts"
-    }
-  },
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
   "author": {
     "name": "elenh",
