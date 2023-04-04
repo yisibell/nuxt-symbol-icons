@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v2.1.0
+
+
+### 🚀 Enhancements
+
+  - Unified symbolIdPrefix (e2d03e5)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.3
 
 

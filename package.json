@@ -1,7 +1,7 @@
 {
   "name": "nuxt-symbol-icons",
   "description": "A nuxt(2) module for using svg sprite icon.",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "main": "./lib/module.js",
   "types": "./lib/index.d.ts",
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
