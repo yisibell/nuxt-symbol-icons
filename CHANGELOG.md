@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v2.1.1
+
+
+### 🩹 Fixes
+
+  - ModuleOptions is not defined error (64254aa)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.1.0
 
 
