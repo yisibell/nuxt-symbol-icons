@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v2.0.1
+
+
+### 🩹 Fixes
+
+  - Loader getOptions error (54f1bf0)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.0
 
 
