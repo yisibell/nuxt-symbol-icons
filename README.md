@@ -56,17 +56,17 @@ module.exports = {
 
 # Options
 
-| Key | Type | Default value | Description | Added in |
-| :---: | :---: | :---: | :---: | :---: |
-| `enable` | `boolean` | `true` | Whether to enable **nuxt-symbol-icons** | - |
-| `svgoConfig` | `boolean/SvgoConfig` | `{}` | Define configuration of **SVGO**, if set to `false`, will disable **SVGO**. | `v2.0.0` |
-| `enableSvgoPresetDefaultConfig` | `boolean` | `true` | Whether to add `preset-default` config for **SVGO** | `v2.0.0` |
-| `svgSymbolIdPrefix` | `string` | `icon-` | Define the SVG symbol id prefix. | - |
-| `globalComponentName` | `string` | `SvgIcon` | Define the global component name of `vue-symbol-icon`. | - |
-| `svgSpriteLoaderIncludeDir` | `string` | `assets/icons/svg` | Define the include folder for **svg-sprite-loader**. | - |
-| `requireContextSvgDir` | `string` | `~/assets/icons/svg` | Define the SVG icons folder for **Batch imports** via `require.context`. | - |
-| `extraSvgSpriteLoaderOptions` | `Record<string, any>` | `{}` | Configure extra options for [svg-sprite-loader](https://github.com/JetBrains/svg-sprite-loader). | - |
-| `extraPreLoaders` | `RuleSetUseItem[]` | `[]` |  Use some other loaders before **svg-sprite-loader** processes **SVG**. | - |
+| Key | Type | Default value | Description |
+| :---: | :---: | :---: | :---: |
+| `enable` | `boolean` | `true` | Whether to enable **nuxt-symbol-icons** |
+| `svgoConfig` <br /> Added in `v2.0.0` | `boolean/SvgoConfig` | `{}` | Define configuration of **SVGO**, if set to `false`, will disable **SVGO**. |
+| `enableSvgoPresetDefaultConfig` <br /> Added in `v2.0.0` | `boolean` | `true` | Whether to add `preset-default` config for **SVGO** |
+| `svgSymbolIdPrefix` | `string` | `icon-` | Define the SVG symbol id prefix. |
+| `globalComponentName` | `string` | `SvgIcon` | Define the global component name of `vue-symbol-icon`. |
+| `svgSpriteLoaderIncludeDir` | `string` | `assets/icons/svg` | Define the include folder for **svg-sprite-loader**. |
+| `requireContextSvgDir` | `string` | `~/assets/icons/svg` | Define the SVG icons folder for **Batch imports** via `require.context`. |
+| `extraSvgSpriteLoaderOptions` | `Record<string, any>` | `{}` | Configure extra options for [svg-sprite-loader](https://github.com/JetBrains/svg-sprite-loader). |
+| `extraPreLoaders` | `RuleSetUseItem[]` | `[]` |  Use some other loaders before **svg-sprite-loader** processes **SVG**. |
 
 # CHANGE LOG
 
