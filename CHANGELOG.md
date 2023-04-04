@@ -1,6 +1,21 @@
 # Changelog
 
 
+## v2.0.0
+
+
+### 🚀 Enhancements
+
+  - ⚠️  Support svgo (124ebaf)
+
+#### ⚠️  Breaking Changes
+
+  - ⚠️  Support svgo (124ebaf)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v1.8.0
 
 
