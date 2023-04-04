@@ -4,6 +4,12 @@
   "version": "1.8.0",
   "main": "./lib/module.js",
   "types": "./lib/index.d.ts",
+  "exports": {
+    ".": {
+      "require": "./lib/module.js",
+      "types": "./lib/index.d.ts"
+    }
+  },
   "repository": "git@github.com:yisibell/nuxt-symbol-icons.git",
   "author": {
     "name": "elenh",
@@ -29,6 +35,8 @@
   },
   "dependencies": {
     "svg-sprite-loader": "^6.0.11",
+    "svgo": "^3.0.2",
+    "svgo-extra": "^1.2.0",
     "vue-symbol-icon": "^2.0.1"
   },
   "peerDependencies": {

@@ -1,4 +1,5 @@
 import { RuleSetUseItem } from 'webpack';
+import { Config } from 'svgo';
 
 type SVGSpriteLoaderOptions = Record<string, any>
 
@@ -10,6 +11,8 @@ interface NuxtSymbolIconsOptions {
   svgSpriteLoaderIncludeDir?: string
   extraSvgSpriteLoaderOptions?: SVGSpriteLoaderOptions
   extraPreLoaders?: RuleSetUseItem[]
+  svgoConfig?: boolean | Config
+  enableSvgoPresetDefaultConfig?: boolean
 }
 
 declare const NuxtSymbolIconsModule: (

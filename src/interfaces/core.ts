@@ -1,8 +1,9 @@
 import type { RuleSetUseItem } from 'webpack'
+import type { Config as SvgoConfig } from 'svgo'
 
-export type SVGSpriteLoaderOptions = Record<string, any>
+type SVGSpriteLoaderOptions = Record<string, any>
 
-export interface NuxtSymbolIconsOptions {
+interface NuxtSymbolIconsOptions {
   enable?: boolean
   svgSymbolIdPrefix?: string
   globalComponentName?: string
@@ -10,4 +11,8 @@ export interface NuxtSymbolIconsOptions {
   svgSpriteLoaderIncludeDir?: string
   extraSvgSpriteLoaderOptions?: SVGSpriteLoaderOptions
   extraPreLoaders?: RuleSetUseItem[]
+  svgoConfig?: boolean | SvgoConfig
+  enableSvgoPresetDefaultConfig?: boolean
 }
+
+export { SVGSpriteLoaderOptions, NuxtSymbolIconsOptions, SvgoConfig }

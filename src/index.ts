@@ -1,6 +1,19 @@
 import path from 'node:path'
-import type { NuxtSymbolIconsOptions } from './interfaces/core'
+import type { NuxtSymbolIconsOptions, SvgoConfig } from './interfaces/core'
 import type { Module } from '@nuxt/types'
+import { createSvgoConfig } from 'svgo-extra'
+import type { RuleSetLoader } from 'webpack'
+import SVGOLoader from './loaders/svgo-loader'
+
+const isValidSvgoConfig = (
+  value: boolean | SvgoConfig
+): value is SvgoConfig => {
+  if (value !== false) {
+    return true
+  }
+
+  return false
+}
 
 const runModule = (
   moduleContainer: ThisParameterType<Module>,
@@ -21,13 +34,21 @@ const runModule = (
       requireContextSvgDir: '~/assets/icons/svg',
       extraSvgSpriteLoaderOptions: {},
       extraPreLoaders: [],
+      svgoConfig: {},
+      enableSvgoPresetDefaultConfig: true,
     },
     nuxtOptions.nuxtSymbolIcons as NuxtSymbolIconsOptions,
     moduleOptions
   )
 
   if (finalModuleOptions.enable) {
-    const { svgSymbolIdPrefix } = finalModuleOptions
+    const {
+      svgSymbolIdPrefix,
+      extraPreLoaders,
+      extraSvgSpriteLoaderOptions,
+      svgoConfig,
+      enableSvgoPresetDefaultConfig,
+    } = finalModuleOptions
 
     // extend webpack
     moduleContainer.extendBuild((config, { isClient }) => {
@@ -53,19 +74,41 @@ const runModule = (
 
         const symbolId = `${svgSymbolIdPrefix}[name]`
 
+        const useLoaders: RuleSetLoader[] = [
+          {
+            loader: 'svg-sprite-loader',
+            options: {
+              symbolId,
+              ...extraSvgSpriteLoaderOptions,
+            },
+          },
+        ]
+
+        const incomingSvgoConfig = isValidSvgoConfig(svgoConfig)
+          ? svgoConfig
+          : svgoConfig === true
+          ? {}
+          : {}
+
+        if (isValidSvgoConfig(svgoConfig)) {
+          useLoaders.push({
+            loader: path.resolve(__dirname, './svgo-loader.js'),
+            options: createSvgoConfig(incomingSvgoConfig, {
+              presetDefault: enableSvgoPresetDefaultConfig,
+            }),
+          })
+        }
+
+        if (extraPreLoaders && extraPreLoaders.length > 0) {
+          extraPreLoaders.forEach((v) => {
+            useLoaders.push(v)
+          })
+        }
+
         config.module?.rules.push({
           test: /\.svg$/,
           include: [svgDir],
-          use: [
-            {
-              loader: 'svg-sprite-loader',
-              options: {
-                symbolId,
-                ...finalModuleOptions.extraSvgSpriteLoaderOptions,
-              },
-            },
-            ...finalModuleOptions.extraPreLoaders,
-          ],
+          use: useLoaders,
         })
       }
     })
@@ -80,4 +123,4 @@ const runModule = (
   }
 }
 
-export { runModule }
+export { runModule, SVGOLoader }
