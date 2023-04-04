@@ -34,6 +34,7 @@
     "release": "npm run build && changelogen --release && npm publish --access=public && git push --follow-tags"
   },
   "dependencies": {
+    "loader-utils": "^2.0.4",
     "svg-sprite-loader": "^6.0.11",
     "svgo": "^3.0.2",
     "svgo-extra": "^1.2.0",
@@ -48,6 +49,7 @@
     "@rollup/plugin-json": "^6.0.0",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "@rollup/plugin-typescript": "^11.0.0",
+    "@types/loader-utils": "^2.0.3",
     "@types/svg-sprite-loader": "^3.9.5",
     "@typescript-eslint/eslint-plugin": "^5.57.0",
     "@typescript-eslint/parser": "^5.57.0",

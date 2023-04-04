@@ -59,7 +59,7 @@ module.exports = {
 | Key | Type | Default value | Description | Added in |
 | :---: | :---: | :---: | :---: | :---: |
 | `enable` | `boolean` | `true` | Whether to enable **nuxt-symbol-icons** | - |
-| `svgoConfig` | `boolean | SvgoConfig` | `{}` | Define configuration of **SVGO**, if set to `false`, will disable **SVGO**. | `v2.0.0` |
+| `svgoConfig` | `boolean/SvgoConfig` | `{}` | Define configuration of **SVGO**, if set to `false`, will disable **SVGO**. | `v2.0.0` |
 | `enableSvgoPresetDefaultConfig` | `boolean` | `true` | Whether to add `preset-default` config for **SVGO** | `v2.0.0` |
 | `svgSymbolIdPrefix` | `string` | `icon-` | Define the SVG symbol id prefix. | - |
 | `globalComponentName` | `string` | `SvgIcon` | Define the global component name of `vue-symbol-icon`. | - |

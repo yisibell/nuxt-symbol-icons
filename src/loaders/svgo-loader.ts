@@ -1,11 +1,12 @@
 import { optimize, loadConfig } from 'svgo'
+import loaderUtils from 'loader-utils'
 
 type LoaderContext = any
 
 async function runLoader(this: LoaderContext, source: string) {
-  const { getOptions, context, resourcePath } = this
+  const { context, resourcePath } = this
 
-  const { configFile, ...options } = getOptions()
+  const { configFile, ...options } = loaderUtils.getOptions(this)
 
   let config
 
