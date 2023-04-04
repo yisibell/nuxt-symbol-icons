@@ -1,6 +1,17 @@
 # Changelog
 
 
+## v2.0.2
+
+
+### 🩹 Fixes
+
+  - Svgo-loader error (9a73315)
+
+### ❤️  Contributors
+
+- Wenqing <wenqing@kerrylan.com>
+
 ## v2.0.1
 
 
