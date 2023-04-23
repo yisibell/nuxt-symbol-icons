@@ -3562,10 +3562,10 @@ v8-compile-cache-lib@^3.0.1:
   resolved "https://registry.yarnpkg.com/v8-compile-cache-lib/-/v8-compile-cache-lib-3.0.1.tgz#6336e8d71965cb3d35a1bbb7868445a7c05264bf"
   integrity sha512-wa7YjyUGfNZngI/vtK0UHAN+lgDCxBPCylVXGp0zu59Fz5aiGtNXaq3DhIov063MorB+VfufLh3JlF2KdTK3xg==
 
-vue-symbol-icon@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.yarnpkg.com/vue-symbol-icon/-/vue-symbol-icon-2.1.0.tgz#d42854e26dd4be32964556252088a61b14d0dcbd"
-  integrity sha512-mn0VKcdRdwjengYG51sdBls9f4jni5icUcXQQXwDcE2cbv/EXD137n5oCHU4Yx/RkUFw1+/ViIAgGB8fTLfePA==
+vue-symbol-icon@^2.2.1:
+  version "2.2.1"
+  resolved "https://registry.yarnpkg.com/vue-symbol-icon/-/vue-symbol-icon-2.2.1.tgz#1b44fa215898478021ad7ae7fa321ccdfe4e7650"
+  integrity sha512-UvVYve1uHqqjNS1vyDc8Ym8DqLEIeGzZ5C0ndNGtpO19aBLaZVyuIZlBFdiloxH9XHhpLnaCH+DnVAlJTY4uWQ==
 
 wcwidth@^1.0.1:
   version "1.0.1"
